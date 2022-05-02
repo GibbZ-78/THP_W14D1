@@ -19,3 +19,6 @@ const myfunc = () => {
 }
 
 myfunc();
+
+console.log(`ENV #1: ${process.env.TEST_1}`);
+console.log(`ENV #2: ${process.env.TEST_2}`);

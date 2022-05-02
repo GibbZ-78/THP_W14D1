@@ -1,0 +1,15 @@
+$color-red: rgb(255, 20, 20);
+
+@font-face {
+  font-family: 'Branda';
+  src: url('../fonts/Branda-yolq.ttf');
+}
+
+body {
+  background-image: url('../images/tokyo.jpg');
+}
+
+p {
+  color: $color-red;
+  font-family: 'Branda';
+}
